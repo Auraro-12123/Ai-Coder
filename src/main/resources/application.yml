@@ -8,6 +8,10 @@ spring:
     username: root
     password: 123456
 
+  profiles:
+    active: local
+
+
 server:
   port: 8123
   servlet:
